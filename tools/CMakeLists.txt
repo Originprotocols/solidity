@@ -14,6 +14,7 @@ target_link_libraries(solidity-upgrade PRIVATE solidity Boost::boost Boost::prog
 include(GNUInstallDirs)
 install(TARGETS solidity-upgrade DESTINATION "${CMAKE_INSTALL_BINDIR}")
 
+
 set(libphaser_sources
 	yulPhaser/Common.h
 	yulPhaser/Common.cpp
