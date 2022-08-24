@@ -8,6 +8,7 @@
 # they have to be on a line of their own at the same indentation level
 # as the opening part (aka "dangling parenthesis", see https://reviews.llvm.org/D33029).
 
+
 Language: Cpp
 BasedOnStyle: LLVM
 AccessModifierOffset: -4
